@@ -20,7 +20,7 @@ const Album = (props) => {
             >
               <CardMedia
                 sx={{ paddingTop: "100%", backgroundSize: "contain" }}
-                image={el.metadata}
+                image={el.metadata.search(/^https/gm) === -1 ? `https://hub.textile.io/ipfs/${el.metadata}`:el.metadata}
                 title={el.name}
               />
               <CardContent sx={{ flexGrow: 1 }}>

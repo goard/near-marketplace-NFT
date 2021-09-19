@@ -46,22 +46,22 @@ const CreateNft = (props) => {
     // }),
   });
 
-  const formik = useFormik({
-    initialValues: { file: null, fileUrl: null, name: "", price: "" },
-    validationSchema: validationSchema,
-    onSubmit: async (values) => {
-      console.log(values);
-      try {
-        await registerNft({
-          fileBuffer: values.file,
-          name: values.name,
-          price: values.price,
-        });
-      } catch (error) {
-        console.log(error);
-      }
-    },
-  });
+  // const formik = useFormik({
+  //   initialValues: { file: null, fileUrl: null, name: "", price: "" },
+  //   validationSchema: validationSchema,
+  //   onSubmit: async (values) => {
+  //     console.log(values);
+  //     try {
+  //       await registerNft({
+  //         fileBuffer: values.file,
+  //         name: values.name,
+  //         price: values.price,
+  //       });
+  //     } catch (error) {
+  //       console.log(error);
+  //     }
+  //   },
+  // });
 
   return (
     <Container maxWidth="sm">
@@ -74,7 +74,6 @@ const CreateNft = (props) => {
             await registerNft({
               fileBuffer: values.file,
               name: values.name,
-              price: values.price,
             });
             setSubmitting(false);
           } catch (error) {

@@ -164,6 +164,12 @@ export const logout = () => (dispatch) => {
 };
 
 export const registerNft = (payload) => async (dispatch) => {
+  const {
+    utils: {
+      format: { formatNearAmount },
+    },
+  } = nearAPI;
+
   dispatch({
     type: types.LOADING,
     payload: true,
@@ -174,18 +180,19 @@ export const registerNft = (payload) => async (dispatch) => {
   });
   console.log(payload);
   const raw = await setMediaToNftStorage(payload);
-  console.log("raw", raw);
+  console.log("raw", raw.data.image.hostname + raw.data.image.pathname);
+  const path = raw.data.image.hostname + raw.data.image.pathname;
   const GAS = 200000000000000;
-  const deposit = parseNearAmount(1);
-  // const contract = nearClient.getContract();
-  // await contract.nft_mint(
-  //   {
-  //     token_id: `token-${Date.now()}`,
-  //     metadata: raw,
-  //   },
-  //   GAS,
-  //   deposit
-  // );
+  const deposit = parseNearAmount("1");
+  const contract = nearClient.getContract();
+  await contract.nft_mint(
+    {
+      token_id: `token-${Date.now()}`,
+      metadata: path,
+    },
+    GAS,
+    deposit
+  );
   dispatch({
     type: types.LOADING,
     payload: false,

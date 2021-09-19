@@ -1,0 +1,2 @@
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/ayur/myprojects/education/blockchain/nft-launcher/contracts/nft-simple/target/wasm32-unknown-unknown/release/build/typenum-116c58ae07d6922b/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/ayur/myprojects/education/blockchain/nft-launcher/contracts/nft-simple/target/wasm32-unknown-unknown/release/build/typenum-116c58ae07d6922b/out/op.rs

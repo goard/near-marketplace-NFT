@@ -1,0 +1,12 @@
+/home/ayur/myprojects/education/blockchain/nft-launcher/contracts/nft-simple/target/wasm32-unknown-unknown/release/deps/borsh-b040f095e382d216.rmeta: /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/lib.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/de/mod.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/de/hint.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/schema.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/schema_helpers.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/ser/mod.rs
+
+/home/ayur/myprojects/education/blockchain/nft-launcher/contracts/nft-simple/target/wasm32-unknown-unknown/release/deps/libborsh-b040f095e382d216.rlib: /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/lib.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/de/mod.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/de/hint.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/schema.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/schema_helpers.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/ser/mod.rs
+
+/home/ayur/myprojects/education/blockchain/nft-launcher/contracts/nft-simple/target/wasm32-unknown-unknown/release/deps/borsh-b040f095e382d216.d: /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/lib.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/de/mod.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/de/hint.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/schema.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/schema_helpers.rs /home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/ser/mod.rs
+
+/home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/lib.rs:
+/home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/de/mod.rs:
+/home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/de/hint.rs:
+/home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/schema.rs:
+/home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/schema_helpers.rs:
+/home/ayur/.cargo/registry/src/github.com-1ecc6299db9ec823/borsh-0.8.1/src/ser/mod.rs:
